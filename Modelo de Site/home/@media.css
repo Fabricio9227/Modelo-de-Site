@@ -1,0 +1,12 @@
+@media screen and (max-width: 760px) {
+    body, header{
+        box-sizing: border-box;
+        width: 100%;
+        overflow-x: hidden;
+        z-index: 1;
+    }}
+
+.banner{
+    display: flex;
+    flex-direction: column-reverse;
+}

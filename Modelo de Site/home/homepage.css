@@ -1,0 +1,209 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 700vh;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+nav {
+    background-color: rgb(250, 242, 242);
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    z-index: 1; 
+    box-shadow: 0px 5px 15px black;
+}
+
+.logo img{
+    width: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.menu nav a {
+    font-size: 22px;
+    position: relative;
+}
+.menu nav a::after {
+    content: " ";
+    width: 0px;
+    height: 5px;
+    background-image: linear-gradient(45deg, #6f00ff, #8a49f1);
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    transition: width 0.5s;
+}
+.container a:hover::after {
+    width: 60px;
+}
+
+a { color: black;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 40%;
+    gap: 50px;
+    text-align: center;
+    font-size: 20px;
+    display: flex; 
+    background: border-box;
+}
+
+.white-box{
+    background-color:  rgb(250, 242, 242);
+    width: 30vh;
+    height: 8vh;
+}
+
+#home {
+    font-weight: bold;
+    display: inline;
+    height: 30px;
+}
+#about {
+    font-weight: bold;
+    display: inline;
+    height: 30px;
+    cursor: pointer;
+}
+#work {
+    font-weight: bold;
+    display: inline;
+    height: 30px;
+}
+#contactus {
+    font-weight: bold;
+    display: inline;
+    height: 30px;
+}
+
+#icon {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    z-index: 1;
+}
+
+.sociais {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.sociais img {
+    text-decoration: none;
+    position: relative;
+    width: 30px;
+    transition: all 0.3s; 
+}
+.sociais img:hover {
+    width: 40px;
+    height: 40px;
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#phone {
+    border-radius: 28px;
+    background-image: url(https://s2.glbimg.com/wu_oq4FjGgamZZ61MpCBPyI8Vn8=/940x523/e.glbimg.com/og/ed/f/original/2018/07/03/assorted-blurred-background-boutique-994523.jpg);
+    background-position: center;
+    position: absolute;
+    top: 20%;
+    right: 100px;
+}
+#bolinhas {
+    position: absolute;
+    top: 55%;
+    margin-left: 65%;
+    opacity: 0.8;
+}
+#bola {
+    position: absolute;
+    top: 25%;
+    margin-left: 65%;
+}
+.banner p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 70px;
+    width: 60%;
+    height: 10px;
+    position: absolute;
+    top: 15%;
+    margin-left: 80px;
+    opacity: 0.9;;
+}
+.title-about {
+    font-family: 'PT Sans', sans-serif;
+    color: #ffff;
+    background-color: black;
+    border-radius: 40px;
+    font-size: 50px;
+    width: 40%;
+    position:absolute;
+    top: 100%;
+    margin-left: 80px;
+    text-align: center;
+    box-shadow: 0px, 0px, 15px black;
+    padding: 5px;
+}
+#background-about {
+    color: #6f00ff;
+}
+
+.about {
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    width: 50%;
+    position:absolute;
+    top: 120%;
+    margin-left: 80px;
+    opacity: 0.9;
+    text-align: left;
+}
+#download {
+    background-color: transparent;
+    font-size: 40px;
+    width: 25%;
+    height: 70px;
+    position: absolute;
+    top: 72%;
+    left: 260px;
+    border: 3px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+.banner a button {
+    text-decoration: none;
+    position: relative;
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+.banner a button:hover {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: scale(1.1);
+    opacity: 0.8;
+    box-shadow: 0px 0px 15px #8a49f1;
+}
+
+
+
+
